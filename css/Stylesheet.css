@@ -27,57 +27,93 @@ footer {
     font-family: robotoregular,sans-serif !important;   
 }
 .main-content {    
-     text-align: center;
-   
-    
-    
+     text-align: center;   
 }
 .fbuttons {
- border-radius:0% !important;
-    
+ border-radius:0% !important;   
 }
 .fb {
     color: white;
-    background: #3b5998;
-    
+    background: #3b5998;    
 }
 .lin {
     color: white;
-    background: #0e76a8;
-    
+    background: #0e76a8;    
 }
 .inst {
     color: white;
     background: #3f729b;
-    
 }
 .tel {
     color: white;
-    background: #5682A3;
-    
+    background: #5682A3;   
 }
 .infobox {
-    margin-top:200px;
-    
+    margin-top:300px;  
 }
-.carret {
-    
-    width: 60px;
-    height: 400px;
-    
+.down {  
+    width: 100px;
+    height: 100px;
 }
-.carret:hover {
-  transition: .5s ease;  
-  background: #eeeeee;  
-}
-.down:hover {
-    
+.down:hover { 
     transition: .5s ease;
     transform: translate3d(0,60px,0);
     
 }
 .down:not(hover) {
     transition: .5s ease;
-    transform: translate3d(0,0px,0);
+    transform: translate3d(0,0px,0);   
+}
+.active{
+    transition: 1s ease;
+    transform: translate3d(0px,0px,0px);  
+}
+.deactive{
+    transition: 1s ease;
+    transform: translate3d(0px,-400%,0px);
     
 }
+.esconder{
+    transition: 1s ease;
+    
+    display: none;
+    
+}
+.mostrar{
+    transition: 1s ease;
+    opacity:1;
+    transform: translate3d(0px,50px,0px);
+}
+.real-content{
+  margin-top:-40%;
+    margin-left:20px;
+    
+    
+}
+.shield{
+    transition: 1s ease;
+    display: inline-block;
+    border-radius: 2px;
+    border: #dddddd 1px solid;
+    height: auto;
+}
+.shield img{
+    max-width: 100px;
+    
+}
+.shield-content{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
