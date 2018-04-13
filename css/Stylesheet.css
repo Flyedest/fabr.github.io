@@ -1,0 +1,61 @@
+@charset utf8;
+
+ font-family:'droid sans',sans-serif;
+@font-face {
+    font-family:robotothin;
+    src:url('/fonts/Roboto-Thin.ttf');
+}
+@font-face {
+    font-family:robotoregular;
+    src:url('/fonts/Roboto-Regular.ttf');
+}
+body{
+    height: 100%;   
+}
+h1,
+h2,
+h3,
+h4{
+    
+    font-family: robotothin !important;
+}
+footer {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
+    font-family: robotoregular,sans-serif !important;   
+}
+.main-content {    
+     text-align: center;
+   
+    
+    
+}
+.fbuttons {
+ border-radius:0% !important;
+    
+}
+.fb {
+    color: white;
+    background: #3b5998;
+    
+}
+.lin {
+    color: white;
+    background: #0e76a8;
+    
+}
+.inst {
+    color: white;
+    background: #3f729b;
+    
+}
+.tel {
+    color: white;
+    background: #5682A3;
+    
+}
+.infobox {
+    margin-top:40%;
+    
+}
