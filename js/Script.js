@@ -7,7 +7,7 @@ function cortina(){
         
         target.classList.remove('active');
         target.classList.add('deactive');
-        
+        setTimeout(1000);
         mainContent.classList.remove('esconder');
         mainContent.classList.add('mostrar');
         

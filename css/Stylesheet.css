@@ -49,7 +49,7 @@ footer {
     background: #5682A3;   
 }
 .infobox {
-    margin-top:300px;  
+    margin-top:100px;  
 }
 .down {  
     width: 100px;
@@ -69,13 +69,12 @@ footer {
     transform: translate3d(0px,0px,0px);  
 }
 .deactive{
-    transition: 1s ease;
-    transform: translate3d(0px,-400%,0px);
+    transition: 3s ease;
+    display: none;
     
 }
 .esconder{
     transition: 1s ease;
-    
     display: none;
     
 }
@@ -85,8 +84,8 @@ footer {
     transform: translate3d(0px,50px,0px);
 }
 .real-content{
-  margin-top:-40%;
-    margin-left:20px;
+
+ 
     
     
 }
@@ -96,9 +95,12 @@ footer {
     border-radius: 2px;
     border: #dddddd 1px solid;
     height: auto;
+    min-height: 435px;
+    
 }
 .shield img{
-    max-width: 100px;
+    max-width: 100px !important; 
+   
     
 }
 .shield-content{
