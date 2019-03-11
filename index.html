@@ -65,7 +65,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
 -->
 <html lang="pt-br">
   <head>
-    <title>Aqui vem um título</title>
+    <title>Plinio Fabrycio - Portfólio</title>
     <meta charset="utf-8">
     <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
 
@@ -83,20 +83,26 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
 </head>
 
 <body>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
     <div class="container">
 
 
 
         <div class="row" style="background-color: #26a69a">
-            <div class="col s6"><img src="https://i.imgur.com/Pcrc9R8.png" alt="Logo- Plinio Fabrycio" style="max-width: 80%" /> </div>
-            <div class="col s6">Facebook</div>
+            <div class="col s6"><img src="/Images/logo.png" alt="Logo- Plinio Fabrycio" style="max-width: 80%" /> </div>
+            <!--            <div class="col s6">Facebook</div>-->
         </div>
 
-        <div class="row">
-            <a class="waves-effect waves-light btn "><i class="material-icons left">home</i>Inicio</a>
-            <a class="waves-effect waves-light btn "><i class="material-icons right">person</i>Sobre mim</a>
-            <a class="waves-effect waves-light btn "><i class="material-icons right">work</i>Projetos</a>
-            <a class="waves-effect waves-light btn "><i class="material-icons left">cloud</i>Contato</a>
+        <div class="row navigator">
+
+            <a class="waves-effect waves-light btn " href="#aboutme"><i class="material-icons right">person</i>Sobre mim</a>
+            <a class="waves-effect waves-light btn " href="#tools"><i class="material-icons right">build</i>Ferramentas</a>
+            <a class="waves-effect waves-light btn " href="#mp"><i class="material-icons right">work</i>Projetos</a>
+            <a class="waves-effect waves-light btn " href="#contact"><i class="material-icons right">cloud</i>Contato</a>
 
         </div>
 
@@ -114,7 +120,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
 
         <main>
 
-            <blockquote style="border-left-color: #004d40;" class="teal lighten-5 pushpin">
+            <blockquote style="border-left-color: #004d40;" class="teal lighten-5 pushpin" id="aboutme">
                 <h4>Sobre mim</h4>
             </blockquote>
 
@@ -122,7 +128,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
                 <div class="col s6">
                     <div class="card" style="max-width: 60%">
                         <div class="card-image">
-                            <img src="https://i.imgur.com/m1DMjnH.gif">
+                            <img src="/Images/me.gif">
                             <span class="card-title">Esse cara sou eu<i class="material-icons right">music_note</i> </span>
                         </div>
                         <div class="card-content">
@@ -166,7 +172,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
 
 
 
-            <blockquote style="border-left-color: #004d40;" class="teal lighten-5">
+            <blockquote style="border-left-color: #004d40;" id="tools" class="teal lighten-5">
                 <h4>Principais ferramentas</h4>
             </blockquote>
             <div class="row">
@@ -188,7 +194,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
             <div class="row">
                 <div class="col s6 m6" align=center>
 
-                    <img src="https://i.imgur.com/fHUrqvI.png" alt="Laravel" style="max-width: 400px;" />
+                    <img src="/Images/Laravel.png" alt="Laravel" style="max-width: 400px;" />
                 </div>
                 <div class="col s6 m6">
                     <div class="card teal darken-3">
@@ -218,13 +224,13 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
 
                 <div class="col s6 m6" align=center>
 
-                    <img src="https://i.imgur.com/uKF3Ykq.png" alt="My Sql" style="max-width: 300px;" />
+                    <img src="/Images/mysql.png" alt="My Sql" style="max-width: 300px;" />
                 </div>
             </div>
             <div class="row">
                 <div class="col s6 m6" align=center>
 
-                    <img src="https://i.imgur.com/ZTZzI90.gif" alt="Javascript" style="max-width: 300px;" />
+                    <img src="/Images/JS.gif" alt="Javascript" style="max-width: 300px;" />
                 </div>
                 <div class="col s6 m6">
                     <div class="card teal darken-1">
@@ -260,7 +266,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
 
             <div class="divider"></div>
 
-            <blockquote style="border-left-color: #004d40;" class="teal lighten-5">
+            <blockquote style="border-left-color: #004d40;" class="teal lighten-5" id="mp">
                 <h4>Meus projetos</h4>
             </blockquote>
 
@@ -270,7 +276,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
                 <div class="col s8 m7">
                     <div class="card teal lighten-1">
                         <div class="card-image">
-                            <img src="https://i.imgur.com/WDccSLz.png">
+                            <img src="/Images/ProjectA.gif">
                         </div>
                         <div class="card-content">
                             <span class="card-title">HT Clube</span>
@@ -287,13 +293,13 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
                 <div class="col s12 m7">
                     <div class="card teal lighten-2">
                         <div class="card-image">
-                            <img src="https://i.imgur.com/7xcPUZP.png">
+                            <img src="/Images/ProjectB.gif">
                         </div>
                         <div class="card-content">
                             <span class="card-title">Kairos</span>
                             <p>Aqui temos outro sistema feito em Laravel, utilizando-se do Jquery para possibilitar a acessibilidade. A função principal deste projeto é gerenciar horários e notificar o usuário quando houver eventos em uma data próxima </p>
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -310,7 +316,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
                             <span class="card-title">ACP</span>
                             <p>E, por fim temos este sistema aqui, ele foi desenvolvido para administradores de servidores SAMP com o fim de gerenciar o server de fora dele. </p>
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -318,7 +324,48 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
                 </div>
 
             </div>
-            
+
+
+
+
+
+            <div class="divider"></div>
+
+            <blockquote style="border-left-color: #004d40;" class="teal lighten-5" id="skills">
+                <h4>Outras ferramentas e habilidades</h4>
+            </blockquote>
+
+
+            <div class="row">
+
+                <div class="col s8 m7">
+                    <div class="card teal lighten-1">
+                        <div class="card-content">
+                            <span class="card-title">Corel Draw</span>
+                            <p>Software utilizado para edição de imagens vetoriais, em outras palavras, é uma ferramenta de desenho muito utilizado para a produção de logomarcas.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s4">
+                </div>
+                <div class="col s8 m7">
+                    <div class="card teal lighten-1">
+                        <div class="card-content">
+                            <span class="card-title">Photoshop</span>
+                            <p>Photoshop é um editor de imagens profissional, o mais utilizado no mundo, e com ele é possivel fazer qualquer tipo de edição de imagens.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
 
         </main>
 
@@ -331,7 +378,7 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
 
 
 
-        <footer class="page-footer" style="background-color: #26a69a">
+        <footer class="page-footer" id="contact" style="background-color: #26a69a">
 
             <div class="container">
                 <div class="row">
@@ -340,12 +387,12 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
                         <p class="grey-text text-lighten-4">Chegou o fim de sua jornada, espero que tenha interesse pelos meus trabalhos e serviços, qualquer coisa, só me chamar!</p>
                     </div>
                     <div class="col l4 offset-l2 s12">
-                        <h5 class="white-text">Links</h5>
+                        <h5 class="white-text">Contate-me</h5>
                         <ul>
-                            <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Whatsapp</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Linkedin</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Telegram</a></li>
+                            <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.facebook.com/ahnaoplinio">Facebook</a></li>
+                            <li><a class="grey-text text-lighten-3" target="_blank" href="https://api.whatsapp.com/send?phone=5587988292319">Whatsapp</a></li>
+                            <li><a class="grey-text text-lighten-3" target="_blank" href="www.linkedin.com/in/pfabrycio">Linkedin</a></li>
+                            <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.instagram.com/ifabrycio/">Instagram</a></li>
                         </ul>
                     </div>
 
@@ -361,7 +408,6 @@ Meu nick nos jogos é sempre Flyedest. Adc lá :>
 
         </footer>
     </div>
-
 
 </body>
 </html>
